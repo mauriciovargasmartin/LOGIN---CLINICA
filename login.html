@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       table{
+        border: 2px solid #353A46;
+        background-color: #ffffff;
+        }
+
+        input[type =text],input[type=password]{
+
+            width: 100%;
+            padding: 8px 20px;
+            border:  2px solid #ccc;
+            box-sizing: border-box;
+        }
+        img{
+
+            width: 100px;
+            height: 100px;
+        }
+        
+        label{
+
+            font-size: 14px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type=submit]{
+
+            background-color: #1c94c8;
+            color: #fafafa;
+            padding: 8px 10px;
+            margin: 8px 0px;
+            border: solid;
+            cursor: pointer;
+            width: 40%;
+
+
+
+
+        }
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div style="align-items: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%)">
+  
+  
+    <form action="login.php" method="post">
+
+        <table>
+
+
+            <tr><td colspan="2" style="background-color:#33A8Db;padding-bottom:5px;padding-top:5px;"><Label>LOGIN</label></td></tr>
+
+            <tr><td rowspan="5"><img src="candado.png" /></td><td><label>USER</label></td></tr>
+            <tr><td><input type="text" name="txtusuario"></td></tr>
+            <tr><td><label >PASSWORD</label></td></tr>
+            <tr><td><input type="password" name="txtpassword"/></td></tr>
+            <tr><td><input type="submit" value="Ingresar"/></td></tr>
+
+
+
+        </table>
+
+
+
+
+    </form>
+
+
+
+  </div>  
+
+
+
+
+</body>
+</html>
